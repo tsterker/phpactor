@@ -13,7 +13,7 @@ use PHPUnit\Framework\TestCase;
 
 class LanguageServerPhpstanExtensionTest extends TestCase
 {
-    public function testParam_tmp_file_disabled(): void
+    public function testParamTmpFileDisabled(): void
     {
         // Case: Enabled by default
         $linter = $this->getLinter([]);
